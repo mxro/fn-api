@@ -1,7 +1,7 @@
 package de.mxro.fn;
 
-public interface Closure<OnObject> {
+public interface Closure<P> {
 
-	public void apply(OnObject o);
+	public void apply(P o);
 
 }
