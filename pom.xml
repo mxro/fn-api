@@ -6,7 +6,8 @@
 	<artifactId>fn-api</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<description>Utilities for functional-style Java apps.</description>
-
+	<url>https://github.com/mxro/fn-api</url>
+	
 	<properties>
 
 		<module.gwtVersion>2.5.1</module.gwtVersion>
