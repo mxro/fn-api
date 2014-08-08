@@ -270,5 +270,12 @@
 			<url>${repos.appjangle-snapshots}</url>
 		</snapshotRepository>
 	</distributionManagement>
-
+	
+	<scm>
+		<connection>scm:git:git@github.com:mxro/fn-api.git</connection>
+		<url>https://github.com/mxro/fn-api</url>
+		<developerConnection>scm:git:git@github.com:mxro/fn-api.git
+		</developerConnection>
+	</scm>
+	
 </project>
