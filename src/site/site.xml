@@ -5,7 +5,7 @@
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
     <bannerLeft>
         <name>mxro - Open Source</name>
-        <src>https://docs.google.com/drawings/d/1PGk8qfTtycc5kXOiOQvmh5lviK52e1Cvr0g69JiJZ78/pub?w=398&h=210</src>
+        <src>http://modules.appjangle.com/mxro.png</src>
         <href>http://mxro.de</href>
     </bannerLeft>
 
