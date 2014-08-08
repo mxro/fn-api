@@ -222,6 +222,7 @@
 								<xmlOutputDirectory>target/site</xmlOutputDirectory>
 							</configuration>
 						</plugin>
+						
 					</reportPlugins>
 				</configuration>
 			</plugin>
