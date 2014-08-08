@@ -17,9 +17,9 @@
 	<custom>
 		<fluidoSkin>
 
-			<topBarEnabled>true</topBarEnabled>
-			<sideBarEnabled>false</sideBarEnabled>
-			<googlePlusOne />
+			<topBarEnabled>false</topBarEnabled>
+			<sideBarEnabled>true</sideBarEnabled>
+			
 		</fluidoSkin>
 	</custom>
 
