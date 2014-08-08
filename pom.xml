@@ -24,8 +24,6 @@
 	<!-- Dependent Modules -->
 	<dependencies>
 
-
-
 		<!-- only for gwt maven plugin!!! -->
 		<dependency>
 			<groupId>com.google.gwt</groupId>
