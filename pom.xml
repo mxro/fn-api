@@ -7,7 +7,7 @@
 	<version>0.0.2-SNAPSHOT</version>
 	<description>Utilities for functional-style Java apps.</description>
 	<url>https://github.com/mxro/fn-api</url>
-	
+
 	<properties>
 
 		<module.gwtVersion>2.5.1</module.gwtVersion>
@@ -128,8 +128,8 @@
 					</execution>
 				</executions>
 			</plugin>
-			
-			
+
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
@@ -147,7 +147,7 @@
 								<report>project-team</report>
 								<report>license</report>
 								<report>mailing-list</report>
-								 <report>dependencies</report> 
+								<report>dependencies</report>
 								<report>dependency-convergence</report>
 								<report>plugin-management</report>
 								<report>cim</report>
@@ -210,7 +210,7 @@
 					</reportPlugins>
 				</configuration>
 			</plugin>
-			
+
 		</plugins>
 
 		<!-- RESOURCES -->
@@ -241,7 +241,7 @@
 				</excludes>
 			</resource>
 
-		
+
 
 		</resources>
 
@@ -270,7 +270,7 @@
 			<url>${repos.appjangle-snapshots}</url>
 		</snapshotRepository>
 	</distributionManagement>
-	
+
 	<developers>
 		<developer>
 			<id>mxro</id>
@@ -282,14 +282,16 @@
 				<role>developer</role>
 			</roles>
 			<timezone>+10</timezone>
+			<organization>pureleap</organization>
+			<organizationUrl>http://pureleap.com</organizationUrl>
 		</developer>
 	</developers>
-	
+
 	<scm>
 		<connection>scm:git:git@github.com:mxro/fn-api.git</connection>
 		<url>https://github.com/mxro/fn-api</url>
 		<developerConnection>scm:git:git@github.com:mxro/fn-api.git
 		</developerConnection>
 	</scm>
-	
+
 </project>
