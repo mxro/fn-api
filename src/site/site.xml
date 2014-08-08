@@ -4,9 +4,9 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
     <bannerLeft>
-        <name>Nextweb.io Open Data API</name>
-        <src>https://dl.dropbox.com/u/957046/static/assets/1210/nextweb-neonblue.png</src>
-        <href>http://nextweb.io</href>
+        <name>mxro - Open Source</name>
+        <src>https://docs.google.com/drawings/d/1PGk8qfTtycc5kXOiOQvmh5lviK52e1Cvr0g69JiJZ78/pub?w=398&h=210</src>
+        <href>http://mxro.de</href>
     </bannerLeft>
 
     <skin>
