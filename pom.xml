@@ -271,6 +271,20 @@
 		</snapshotRepository>
 	</distributionManagement>
 	
+	<developers>
+		<developer>
+			<id>mxro</id>
+			<name>Max Rohde</name>
+			<email>noemail@mxro.de</email>
+			<url>http://www.mxro.de/</url>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>+10</timezone>
+		</developer>
+	</developers>
+	
 	<scm>
 		<connection>scm:git:git@github.com:mxro/fn-api.git</connection>
 		<url>https://github.com/mxro/fn-api</url>
