@@ -129,6 +129,12 @@
 
 
 			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>findbugs-maven-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
+
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-site-plugin</artifactId>
 				<version>3.4</version>
@@ -203,6 +209,17 @@
 								<minimumPriority>3</minimumPriority>
 								<!-- Change minimum priority to see more or less messages -->
 								<targetJdk>1.6</targetJdk>
+							</configuration>
+						</plugin>
+
+						<plugin>
+							<groupId>org.codehaus.mojo</groupId>
+							<artifactId>findbugs-maven-plugin</artifactId>
+							<version>3.0.0</version>
+							<configuration>
+								<xmlOutput>true</xmlOutput>
+								<!-- Optional directory to put findbugs xdoc xml report -->
+								<xmlOutputDirectory>target/site</xmlOutputDirectory>
 							</configuration>
 						</plugin>
 					</reportPlugins>
