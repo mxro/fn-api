@@ -8,7 +8,7 @@ package de.mxro.fn;
  * In contrast to {@link SuccessFail} it will not capture failures as values.
  * </p>
  * 
- * @author mroh004
+ * @author Max
  * 
  */
 public class Success {
