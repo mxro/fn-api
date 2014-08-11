@@ -1,6 +1,6 @@
 package de.mxro.fn;
 
-public interface Calculation<Input, Output> {
+public interface Function<Input, Output> {
 
 	public Output apply(Input input);
 
