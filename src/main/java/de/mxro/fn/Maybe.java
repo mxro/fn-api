@@ -3,6 +3,13 @@ package de.mxro.fn;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * An implementation for a construct which might be of a certain value or not.
+ * 
+ * @author Max
+ *
+ * @param <V>
+ */
 public abstract class Maybe<V> {
 
 	public abstract boolean is();
