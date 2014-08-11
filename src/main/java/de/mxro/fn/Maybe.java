@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * An implementation for a construct which might be of a certain value or not.
+ * <p>An abstract implementation for a construct which might be of a certain value or not.
+ * <p>The static methods of this class provide the concrete implementations. Such as in:
+ * <code>
+ *    Maybe.is(new Integer(23));
+ *  </code>
  * 
  * @author Max
  *
