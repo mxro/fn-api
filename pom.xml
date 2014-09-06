@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<groupId>de.mxro.fn</groupId>
 	<artifactId>fn-api</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3-SNAPSHOT</version>
 	<description>Utilities for functional-style Java applications.</description>
 	<url>https://github.com/mxro/fn-api</url>
 
