@@ -35,6 +35,20 @@ public final class CollectionsUtils {
      */
     public final static <V> List<V> flatten(final List<List<V>> lists) {
 
+        int size = 0;
+
+        for (final List<V> list : lists) {
+            size += list.size();
+        }
+
+        final List<V> res = new ArrayList<V>(size);
+
+        for (final List<V> list : lists) {
+            res.addAll(list);
+        }
+
+        return res;
+
     }
 
 }
