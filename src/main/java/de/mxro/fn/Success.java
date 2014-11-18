@@ -13,6 +13,9 @@ package de.mxro.fn;
  */
 public class Success {
 
-	public static final Success INSTANCE = new Success();
+    /**
+     * A singelton of Success
+     */
+    public static final Success INSTANCE = new Success();
 
 }
