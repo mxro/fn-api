@@ -25,7 +25,7 @@ public class Fn {
 
             @Override
             public void apply(final Success o) {
-
+                assert o != null;
             }
         };
     }
