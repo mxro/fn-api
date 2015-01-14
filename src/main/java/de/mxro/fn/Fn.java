@@ -30,14 +30,4 @@ public class Fn {
         };
     }
 
-    public static <R> Closure<R> emptyClosure() {
-        return new Closure<R>() {
-
-            @Override
-            public void apply(final R o) {
-                // do nothing
-            }
-        };
-    }
-
 }
