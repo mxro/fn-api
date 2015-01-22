@@ -30,4 +30,19 @@ public class Fn {
         };
     }
 
+    public static <I, O> Function<I, O> compose(final Function... functions) {
+        return new Function<I, O>() {
+
+            @Override
+            public O apply(final I input) {
+                final Object res = input;
+                for (final Function f : functions) {
+
+                }
+
+                return null;
+            }
+        };
+    }
+
 }
