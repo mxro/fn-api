@@ -35,14 +35,13 @@ public class Fn {
 
             @Override
             public O apply(final I input) {
-                final Object res = input;
+                Object res = input;
                 for (final Function f : functions) {
-
+                    res = f.apply(res);
                 }
 
-                return null;
+                return (O) res;
             }
         };
     }
-
 }
